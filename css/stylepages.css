@@ -1,0 +1,13 @@
+h1, h2, h3{
+    font-family: "Funnel Display", serif;
+    margin-top: 2rem;
+}
+
+p{
+    font-family: "Inter";
+}
+
+.legal{
+    margin: 0 auto;
+    max-width: 70%;
+}

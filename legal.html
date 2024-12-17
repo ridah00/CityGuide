@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grapevine - Les sorties du Havre</title>
+    <link rel="stylesheet" href="/CityGuide/css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/stylepages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+
+</head>
+
+<body class="bg-light">
+
+    <!-- NAV -->
+    <nav class="d-flex justify-content-center">
+        <a href="./index.html">
+            <img src="./img/logo-grapevine.png" class="logo m-2" alt="logo-grapevine">
+        </a>
+    </nav>
+
+    <div class="legal">
+    <h1 class="text-center mt-4">Mentions légales</h1>
+    <h2>Éditeur du site</h2>
+    <p>Le site Grapevine (ci-après "le Site") est édité par :</p>
+
+    <ul>
+        <li>Nom ou raison sociale : <a href="https://github.com/ridah00">Ridha</a>, <a href="">Stéphane</a> et <a href="https://github.com/BarbierTheo">Théo</a></li>
+        <li>Directeur de la publication : Ridha</li>
+    </ul>
+
+    <h2>Hébergeur du site</h2>
+    <p>Le site est hébergé par :</p>
+
+    <ul>
+        <li>Nom de l'hébergeur : <span class="fw-bold">Github</span></li>
+        <li>Adresse : <a href="https://github.com/ridah00/CityGuide">https://github.com/ridah00/CityGuide</a></li>
+    </ul>
+
+    <h2>Conditions générales d'utilisation (CGU)</h2>
+    <p>L’utilisation du site Grapevine implique l’acceptation pleine et entière des conditions générales d’utilisation
+    suivantes. Ces conditions d’utilisation peuvent être modifiées ou complétées à tout moment, sans préavis. Nous vous
+    invitons donc à les consulter régulièrement.</p>
+
+    <h2> Protection des données personnelles (RGPD)</h2>
+        <p>Nous attachons une grande importance à la protection de vos données personnelles. En conformité avec le Règlement
+    Général sur la Protection des Données (RGPD), vous êtes informé des points suivants :</p>
+
+    <ul><li>Collecte des données : Les données personnelles collectées sont principalement destinées à finalité de la collecte,
+    ex. : trafic, coordonnées personnelles.</li>
+    <li>Conservation des données : Vos données seront conservées pendant 1 mois et seront ensuite
+    supprimées ou anonymisées.</li>
+    <li>Vos droits : Vous avez un droit d’accès, de rectification, de suppression, d’opposition au traitement de vos données
+    personnelles, ainsi qu’un droit à la portabilité de vos données. Vous pouvez exercer ces droits en nous contactant à
+    l’adresse suivante : [adresse email].</li></ul>
+
+    <h2>Propriété intellectuelle</h2>
+    <p>Certaines photos et informations ont été récupérées sur internet gratuitement, à des fins illustratives. Si vous êtes l'auteur d'un contenu présent sur ce site et que vous ne souhaitez pas qu'il soit utilisé, merci de nous contacter afin que nous puissions procéder à la suppression de ce contenu sur simple demande.</p>
+
+   <h2>Responsabilité</h2>
+    <p>L’éditeur s’efforce de fournir des informations précises et à jour sur le site. Toutefois, il ne peut garantir
+    l’exactitude, la complétude ou la mise à jour des informations présentes. L’éditeur ne pourra être tenu responsable
+    des dommages directs ou indirects résultant de l’utilisation du site.</p>
+
+</div>
+
+    <!-- FOOTER -->
+    <footer class="text-center container-fluid">
+
+        <button type="button" class="contactus" data-bs-toggle="modal" data-bs-target="#exampleModal">Nous
+            contacter</button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="mail" class="col-form-label textcontact">Adresse mail</label>
+                                <input type="email" class="form-control" id="mail" placeholder="example@mail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label textcontact">Message</label>
+                                <textarea class="form-control" id="message-text"
+                                    placeholder="Conseillez-nous vos restaurants préférés !"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-center around gap-2">
+                        <button type="button" class="btncontact" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btncontact">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center gap-4 text-center">
+            <a href="./legal.html" class="col-lg-3 col-10 linkfooter">Mentions légales</a>
+            <a href="./cgu.html" class="col-lg-3 col-10 linkfooter">Politique de confidentialité</a>
+            <a href="./confidential.html" class="col-lg-3 col-10 linkfooter">CGU</a>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -18,7 +18,7 @@
 
     <!-- NAV -->
     <nav class="d-flex justify-content-center">
-        <a href="#">
+        <a href="./index.html">
             <img src="./img/logo-grapevine.png" class="logo m-2" alt="logo-grapevine">
         </a>
     </nav>
@@ -109,12 +109,36 @@
     <!-- FOOTER -->
     <footer class="text-center container-fluid">
 
-        <a href="#" class="contactus">Nous contacter</a>
+        <button type="button" class="contactus"
+        data-bs-toggle="modal" data-bs-target="#exampleModal">Nous contacter</button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="mail" class="col-form-label textcontact">Adresse mail</label>
+                      <input type="email" class="form-control" id="mail" placeholder="example@mail.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label textcontact">Message</label>
+                      <textarea class="form-control" id="message-text" placeholder="Conseillez-nous vos restaurants préférés !"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer justify-content-center around gap-2">
+                  <button type="button" class="btncontact" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btncontact">Send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
         <div class="row justify-content-center gap-4 text-center">
-            <a href="#" class="col-lg-3 col-10 linkfooter">Mentions légales</a>
-            <a href="#" class="col-lg-3 col-10 linkfooter">Politique de confidentialité</a>
-            <a href="#" class="col-lg-3 col-10 linkfooter">Utilisation des cookies</a>
+            <a href="./legal.html" class="col-lg-3 col-10 linkfooter">Mentions légales</a>
+            <a href="./confidential.html" class="col-lg-3 col-10 linkfooter">Politique de confidentialité</a>
+            <a href="./cgu.html" class="col-lg-3 col-10 linkfooter">CGU</a>
         </div>
     </footer>
     <script src="./main.js"></script>
