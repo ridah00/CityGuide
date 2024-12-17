@@ -9,9 +9,15 @@
     background-color: black;
 }
 
+@media screen and (max-width:800px) {
+    .carousel {
+        display: none;
+    }
+}
+
 .carouselimg {
     max-width: 80%;
-    max-height: 40rem;
+    max-height: 37rem;
     margin: 2rem auto;
     border-radius: 5rem;
 }
