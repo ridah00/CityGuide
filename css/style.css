@@ -96,9 +96,10 @@
 .customcard {
     border: #000 0.2rem solid;
     padding: 0.5rem;
+    cursor: pointer;
 }
 
-.customcardlink{
+.customcardlink {
     text-decoration: none;
     color: #000;
 }
@@ -108,6 +109,13 @@
     height: 10rem;
 }
 
+.imgcard-in {
+    align-self: center;
+    max-width: 95%;
+    border-radius: 1rem;
+}
+
+
 .titlecard {
     align-self: center;
     font-family: "Funnel Display", sans-serif;
@@ -115,13 +123,23 @@
     font-weight: 600;
     font-style: normal;
     font-size: 1.7rem;
+    margin: 0;
     width: 100%;
 }
 
 .desccard {
-    line-height: 0;
+    line-height: 1rem;
     font-family: "Inter", serif;
     font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+
+.desccard-in {
+    line-height: 1rem;
+    font-family: "Inter", serif;
+    font-size: 1rem;
+    margin-top: 0.5rem !important;
 }
 
 .fork {

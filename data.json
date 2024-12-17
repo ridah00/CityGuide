@@ -3,6 +3,7 @@
       {
         "name": "Le Gourmet Havrais",
         "description": "Un restaurant élégant proposant une cuisine locale et raffinée.",
+        "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam deserunt nihil fuga illum porro debitis eaque nobis maxime placeat animi corrupti corporis voluptatum dolorem temporibus",
         "address": "12 Rue de Paris, Le Havre",
         "image": "https://picsum.photos/200/300?random=1.webp",
         "tel": "",
@@ -11,6 +12,7 @@
       {
         "name": "Chez Mario",
         "description": "Un petit coin d’Italie avec des pizzas au feu de bois et des pâtes maison.",
+        "description2": "",
         "address": "45 Avenue Foch, Le Havre",
         "image": "https://picsum.photos/200/300?random=2.webp",
         "image2": "",
@@ -22,6 +24,7 @@
       {
         "name": "Musée Malraux (MuMa)",
         "description": "Découvrez l'une des plus grandes collections impressionnistes de France.",
+        "description2": "piaelkbfkjzQDFSBGOIRZQL OIEQSRHNGORQLHGNOR hejfnlkoiezh oihoezbroehauezhaouehiu hhh",
         "address": "2 Boulevard Clemenceau, Le Havre",
         "image": "./img/sorties/muma1.jpg",
         "image2": "./img/sorties/muma2.jpg",
@@ -31,6 +34,7 @@
       {
         "name": "Les Jardins Suspendus",
         "description": "Un espace vert unique avec des plantes venues des quatre coins du monde.",
+        "description2": "",
         "address": "Rue du Fort, Le Havre",
         "image": "https://picsum.photos/200/300?random=4.webp",
         "image2": "",
@@ -42,6 +46,7 @@
       {
         "name": "La Librairie Havraise",
         "description": "Une librairie indépendante avec un large choix de livres et un coin café.",
+        "description2": "",
         "address": "27 Rue Victor Hugo, Le Havre",
         "image": "https://picsum.photos/200/300?random=5.webp",
         "image2": "",
@@ -51,6 +56,7 @@
       {
         "name": "Le Comptoir Bio",
         "description": "Une boutique spécialisée dans les produits locaux et biologiques.",
+        "description2": "",
         "address": "8 Place des Gobelins, Le Havre",
         "image": "https://picsum.photos/200/300?random=6.webp",
         "image2": "",

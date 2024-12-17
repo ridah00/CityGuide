@@ -13,39 +13,50 @@ function parcourir_tout() {
 
       for (item of data["restaurants"]) {
         document.querySelector(".restaurant_tcontainer").innerHTML += `
+
+
         <div class="customcard col-lg-4 col-10" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}">
-                <img src="${item.image}" alt="photo-restau" class="imgcard">
-                <div class="row justify-content-between">
-                      <div class="col-9">
-                    <h2 class="col-9 titlecard">
-                        ${item.name}
-                    </h2>
+        <img src="${item.image}" alt="photo-restau" class="imgcard">
+        <div class="row justify-content-between">
+            <div class="col-9">
+                <h2 class="col-9 titlecard">
+                    ${item.name}
+                </h2>
 
-                <p class="desccard">${item.address}</p>
+                <p class="desccard fst-italic text-secondary">${item.address}</p>
+                <p class="desccard">${item.description}</p>
+            </div>
+            <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i
+                    class="fa-solid fa-utensils"></i></button>
+        </div>
+        <div class="modal" tabindex="-1" id="exemplenuméro${i}">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="d-flex flex-row-reverse m-2">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
                     </div>
-                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i
-                            class="fa-solid fa-utensils"></i></button>
-                </div>
-                <div class="modal" tabindex="-1" id="exemplenuméro${i}">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="d-flex flex-row-reverse m-2">
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <img src="${item.image2}" alt="photo-restau" class="imgcard">
-                            <p>${item.description}</p>
-                    
+                    <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
 
-                            <div class="d-flex flex-row-reverse mx-1">
-                                <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
-                                <a href="${item.website}" class="ctamodal" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                            </div>
-
+                    <div class="d-flex row m-3">
+                        <div class="d-flex flex-column col-lg-8 col-10">
+                            <p class="titlecard">${item.name}</p>
+                            <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
+                            <p class="desccard-in">${item.description2}</p>
                         </div>
+
+
+                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                            <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
+                            <a href="${item.website}" class="ctamodal" target="_blank"><i
+                                    class="fa-solid fa-globe"></i></a>
+                        </div>
+
                     </div>
                 </div>
             </div>
+        </div>
+
         `;
         i++;
       }
@@ -59,24 +70,34 @@ function parcourir_tout() {
                         ${item.name}
                     </h2>
 
-                <p class="desccard">${item.address}</p>
+                <p class="desccard fst-italic text-secondary">${item.address}</p>
+                <p class="desccard">${item.description}</p>
                     </div>
                     <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i class="fa-solid fa-house-flag"></i></button>
                 </div>
                 <div class="modal" tabindex="-1" id="exemplenuméro${i}">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="d-flex flex-row-reverse m-2">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <img src="${item.image2}" alt="photo-restau" class="imgcard">
-                            <p>${item.description}</p>
+                            <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
+                              <div class="d-flex row m-3">
+                        <div class="d-flex flex-column col-lg-8 col-10">
+                            <p class="titlecard">${item.name}</p>
+                            <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
+                            <p class="desccard-in">${item.description2}</p>
+                        </div>
 
-                            <div class="d-flex flex-row-reverse mx-1">
-                                <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
-                                <a href="${item.website}" class="ctamodal" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                            </div>
+
+                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                            <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
+                            <a href="${item.website}" class="ctamodal" target="_blank"><i
+                                    class="fa-solid fa-globe"></i></a>
+                        </div>
+
+                    </div>
 
                         </div>
                     </div>
@@ -95,25 +116,34 @@ function parcourir_tout() {
                         ${item.name}
                     </h2>
 
-                <p class="desccard">${item.address}</p>
+                <p class="desccard fst-italic text-secondary">${item.address}</p>
+                <p class="desccard">${item.description}</p>
                     </div>
                     <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i class="fa-solid fa-location-dot"></i></button>
                 </div>
                 <div class="modal" tabindex="-1" id="exemplenuméro${i}">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="d-flex flex-row-reverse m-2">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <img src="${item.image2}" alt="photo-restau" class="imgcard">
-                            <p>${item.description}</p>
+                            <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
+                         <div class="d-flex row m-3">
+                        <div class="d-flex flex-column col-lg-8 col-10">
+                            <p class="titlecard">${item.name}</p>
+                            <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
+                            <p class="desccard-in">${item.description2}</p>
+                        </div>
 
-                            <div class="d-flex flex-row-reverse mx-1">
-                                <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
-                                <a href="${item.website}" class="ctamodal" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                            </div>
 
+                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                            <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
+                            <a href="${item.website}" class="ctamodal" target="_blank"><i
+                                    class="fa-solid fa-globe"></i></a>
+                        </div>
+
+                    </div>
                         </div>
                     </div>
                 </div>
@@ -163,25 +193,35 @@ function afficher_restau() {
                         ${item.name}
                     </h2>
 
-                <p class="desccard">${item.address}</p>
+                <p class="desccard fst-italic text-secondary">${item.address}</p>
+                <p class="desccard">${item.description}</p>
                     </div>
                     <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i
                             class="fa-solid fa-utensils"></i></button>
                 </div>
                 <div class="modal" tabindex="-1" id="exemplenuméro${i}">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="d-flex flex-row-reverse m-2">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <img src="${item.image2}" alt="photo-restau" class="imgcard">
-                            <p>${item.description}</p>
+                            <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
+                             <div class="d-flex row m-3">
+                        <div class="d-flex flex-column col-lg-8 col-10">
+                            <p class="titlecard">${item.name}</p>
+                            <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
+                            <p class="desccard-in">${item.description2}</p>
+                        </div>
 
-                            <div class="d-flex flex-row-reverse mx-1">
-                                <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
-                                <a href="${item.website}" class="ctamodal" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                            </div>
+
+                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                            <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
+                            <a href="${item.website}" class="ctamodal" target="_blank"><i
+                                    class="fa-solid fa-globe"></i></a>
+                        </div>
+
+                    </div>
 
                         </div>
                     </div>
@@ -214,24 +254,34 @@ function afficher_sortie() {
                         ${item.name}
                     </h2>
 
-                <p class="desccard">${item.address}</p>
+                <p class="desccard fst-italic text-secondary">${item.address}</p>
+                <p class="desccard">${item.description}</p>
                     </div>
                     <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i class="fa-solid fa-house-flag"></i></button>
                 </div>
                 <div class="modal" tabindex="-1" id="exemplenuméro${i}">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="d-flex flex-row-reverse m-2">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <img src="${item.image2}" alt="photo-restau" class="imgcard">
-                            <p>${item.description}</p>
+                            <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
+                            <div class="d-flex row m-3">
+                        <div class="d-flex flex-column col-lg-8 col-10">
+                            <p class="titlecard">${item.name}</p>
+                            <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
+                            <p class="desccard-in">${item.description2}</p>
+                        </div>
 
-                            <div class="d-flex flex-row-reverse mx-1">
-                                <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
-                                <a href="${item.website}" class="ctamodal" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                            </div>
+
+                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                            <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
+                            <a href="${item.website}" class="ctamodal" target="_blank"><i
+                                    class="fa-solid fa-globe"></i></a>
+                        </div>
+
+                    </div>
 
                         </div>
                     </div>
@@ -264,24 +314,34 @@ function afficher_adresses() {
                         ${item.name}
                     </h2>
 
-                <p class="desccard">${item.address}</p>
+                <p class="desccard fst-italic text-secondary">${item.address}</p>
+                <p class="desccard">${item.description}</p>
                     </div>
                     <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i class="fa-solid fa-location-dot"></i></button>
                 </div>
                 <div class="modal" tabindex="-1" id="exemplenuméro${i}">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="d-flex flex-row-reverse m-2">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            
-                            <p>${item.description}</p>
+                                 <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
+                              <div class="d-flex row m-3">
+                        <div class="d-flex flex-column col-lg-8 col-10">
+                            <p class="titlecard">${item.name}</p>
+                            <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
+                            <p class="desccard-in">${item.description2}</p>
+                        </div>
 
-                            <div class="d-flex flex-row-reverse mx-1">
-                                <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
-                                <a href="${item.website}" class="ctamodal" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                            </div>
+
+                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                            <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
+                            <a href="${item.website}" class="ctamodal" target="_blank"><i
+                                    class="fa-solid fa-globe"></i></a>
+                        </div>
+
+                    </div>
 
                         </div>
                     </div>
