@@ -112,6 +112,7 @@
 .imgcard-in {
     align-self: center;
     max-width: 95%;
+    height: 30rem;
     border-radius: 1rem;
 }
 
@@ -221,3 +222,38 @@ footer {
     text-decoration: underline;
 
 }
+
+/* <reset-style> ============================ */
+a {
+    text-decoration: none;
+  }
+  /* <main-style> ============================ */
+  .scroll-up {
+    z-index: 2;
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  bottom: 4rem;
+  right: 5rem;
+    border-radius: 4px;
+    background-color: rgba(29, 29, 31, 0.7);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    overflow: hidden;
+    transition: bottom .4s, transform .4s;
+  }
+  
+  .scroll-up:hover {
+    transform: translateY(-.25rem);
+  }
+  
+  /* Show scroll-up */
+  ._show-scroll {
+    bottom: 3rem;
+  }
+  
+  @media (max-width: 1199.98px) {
+    .scroll-up {
+      right: 2.75rem;
+    }
+  }

@@ -24,7 +24,7 @@
       {
         "name": "Musée Malraux (MuMa)",
         "description": "Découvrez l'une des plus grandes collections impressionnistes de France.",
-        "description2": "piaelkbfkjzQDFSBGOIRZQL OIEQSRHNGORQLHGNOR hejfnlkoiezh oihoezbroehauezhaouehiu hhh",
+        "description2": "Situé au bord de la mer, le Musée d’art moderne André Malraux — MuMa Le Havre offre une architecture entièrement dédiée à l’espace et à la lumière. La situation exceptionnelle du bâtiment est soulignée par Le Signal, sculpture d’Henri-Georges Adam, qui encadre de béton un morceau du paysage maritime qui a inspiré nombre d’artistes présents dans les collections du musée.",
         "address": "2 Boulevard Clemenceau, Le Havre",
         "image": "./img/sorties/muma1.jpg",
         "image2": "./img/sorties/muma2.jpg",
@@ -34,12 +34,12 @@
       {
         "name": "Les Jardins Suspendus",
         "description": "Un espace vert unique avec des plantes venues des quatre coins du monde.",
-        "description2": "",
+        "description2": "Depuis 2008, les Jardins suspendus s’inscrivent dans le paysage havrais comme un lieu emblématique offrant à  leurs visiteurs un univers de découverte végétale et sensorielle. Niché dans un ancien fort militaire du XIXe siècle, ce site exceptionnel, d’une surface de 17 hectares, surplombe la baie de Seine et offre des points de vue admirables sur la mer, le port et la ville et son architecture Perret.",
         "address": "Rue du Fort, Le Havre",
-        "image": "https://picsum.photos/200/300?random=4.webp",
-        "image2": "",
-        "tel": "",
-        "website": ""
+        "image": "./img/sorties/jardins.jpg",
+        "image2": "./img/sorties/jardins.jpg",
+        "tel": "+33232740433",
+        "website": "https://lehavre.fr/annuaire-equipements/les-jardins-suspendus"
       }
     ],
     "addresses": [

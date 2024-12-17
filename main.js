@@ -39,14 +39,14 @@ function parcourir_tout() {
                     <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
 
                     <div class="d-flex row m-3">
-                        <div class="d-flex flex-column col-lg-8 col-10">
+                        <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
                             <p class="desccard-in">${item.description2}</p>
                         </div>
 
 
-                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                        <div class="d-flex row mx-1 col-lg-3 col-12 align-items-center justify-content-end gap-2">
                             <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
                             <a href="${item.website}" class="ctamodal" target="_blank"><i
                                     class="fa-solid fa-globe"></i></a>
@@ -84,14 +84,14 @@ function parcourir_tout() {
                             </div>
                             <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
                               <div class="d-flex row m-3">
-                        <div class="d-flex flex-column col-lg-8 col-10">
+                        <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
                             <p class="desccard-in">${item.description2}</p>
                         </div>
 
 
-                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                        <div class="d-flex row mx-1 col-lg-3 col-12 align-items-center justify-content-end gap-2 text-center">
                             <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
                             <a href="${item.website}" class="ctamodal" target="_blank"><i
                                     class="fa-solid fa-globe"></i></a>
@@ -130,14 +130,14 @@ function parcourir_tout() {
                             </div>
                             <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
                          <div class="d-flex row m-3">
-                        <div class="d-flex flex-column col-lg-8 col-10">
+                        <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
                             <p class="desccard-in">${item.description2}</p>
                         </div>
 
 
-                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                        <div class="d-flex row mx-1 col-lg-3 col-12 align-items-center justify-content-end gap-2">
                             <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
                             <a href="${item.website}" class="ctamodal" target="_blank"><i
                                     class="fa-solid fa-globe"></i></a>
@@ -208,14 +208,14 @@ function afficher_restau() {
                             </div>
                             <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
                              <div class="d-flex row m-3">
-                        <div class="d-flex flex-column col-lg-8 col-10">
+                        <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
                             <p class="desccard-in">${item.description2}</p>
                         </div>
 
 
-                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                        <div class="d-flex row mx-1 col-lg-3 col-12 align-items-center justify-content-end gap-2">
                             <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
                             <a href="${item.website}" class="ctamodal" target="_blank"><i
                                     class="fa-solid fa-globe"></i></a>
@@ -268,14 +268,14 @@ function afficher_sortie() {
                             </div>
                             <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
                             <div class="d-flex row m-3">
-                        <div class="d-flex flex-column col-lg-8 col-10">
+                        <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
                             <p class="desccard-in">${item.description2}</p>
                         </div>
 
 
-                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                        <div class="d-flex row mx-1 col-lg-3 col-12 align-items-center justify-content-end gap-2">
                             <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
                             <a href="${item.website}" class="ctamodal" target="_blank"><i
                                     class="fa-solid fa-globe"></i></a>
@@ -328,14 +328,14 @@ function afficher_adresses() {
                             </div>
                                  <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
                               <div class="d-flex row m-3">
-                        <div class="d-flex flex-column col-lg-8 col-10">
+                        <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
                             <p class="desccard-in">${item.description2}</p>
                         </div>
 
 
-                        <div class="d-flex row mx-1 col-lg-3 col-10 align-items-center justify-content-end gap-2">
+                        <div class="d-flex row mx-1 col-lg-3 col-12 align-items-center justify-content-end gap-2">
                             <a href="tel:${item.tel}" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
                             <a href="${item.website}" class="ctamodal" target="_blank"><i
                                     class="fa-solid fa-globe"></i></a>
