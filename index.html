@@ -67,25 +67,59 @@
 
 
     <!-- MAIN -->
-     <section>
-       <div class="container-fluid ">
-        <h1 class="text-sm-end bigtitle" id="scroll_restaurant">... une petite faim ?</h1>
-        <div class="row justify-content-center gap-5 restaurant_tcontainer"></div>
+    <section>
+        <div class="container-fluid ">
+            <h1 class="text-sm-end bigtitle" id="scroll_restaurant">... une petite faim ?</h1>
+            <div class="row justify-content-center gap-5 restaurant_tcontainer"></div>
 
-       </div> 
-       <div class="container-fluid">
-        <h1 class="text-sm-end bigtitle" id="scroll_sorties" >... une sortie ?</h1>
-        <div class="row justify-content-center gap-5 sorties_tcontainer"></div>
+            <!-- <a href="#" class="customcardlink">
+                <div class="customcard col-lg-4 col-10">
+                    <img src="${item.image}" alt="photo-restau" class="imgcard w-100">
+                    <div class="row justify-content-between">
+                        <div class="col-9">
+                            <h2 class="col-9 titlecard">
+                                ${item.name}
+                            </h2>
+            </a>
+            <p class="desccard">${item.address}</p>
+        </div>
+        </a>
+        <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i
+                class="fa-solid fa-utensils"></i></button>
+        </div>
+        <div class="modal" tabindex="-1" id="exemplenuméro${i}">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="d-flex flex-row-reverse m-2">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <p>${item.description}</p>
 
-       </div> 
-       <div class="container-fluid">
-        <h1 class="text-sm-end bigtitle" id="scroll_adresses" >... les bonnes adresses ?</h1>
-        <div class="row justify-content-center gap-5 adresses_tcontainer"></div>
+                    <div class="d-flex flex-row-reverse mx-1">
+                        <a href="tel:+330000000" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
+                        <a href="#" class="ctamodal"><i class="fa-solid fa-globe"></i></a>
+                    </div>
 
-       </div> 
-     </section>
-    
-    
+                </div>
+            </div>
+        </div> -->
+
+
+
+        </div>
+        <div class="container-fluid">
+            <h1 class="text-sm-end bigtitle" id="scroll_sorties">... une sortie ?</h1>
+            <div class="row justify-content-center gap-5 sorties_tcontainer"></div>
+
+        </div>
+        <div class="container-fluid">
+            <h1 class="text-sm-end bigtitle" id="scroll_adresses">... les bonnes adresses ?</h1>
+            <div class="row justify-content-center gap-5 adresses_tcontainer"></div>
+
+        </div>
+    </section>
+
+
 
 
     <!-- FOOTER -->
@@ -99,10 +133,10 @@
             <a href="#" class="col-lg-3 col-10 linkfooter">Utilisation des cookies</a>
         </div>
     </footer>
-    <script src="main.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
 
 </body>
 
