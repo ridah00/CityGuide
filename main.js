@@ -5,32 +5,35 @@
 //     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 // }).addTo(map);
 
+fetch("data.json")
+    .then((response) => response.json())
+    .then((data) => {
+        console.log(data);
+        let i = 0;
+        for (item of data["restaurants"]) {
 
-fetch('data.json')
-  .then(response => response.json())
-  .then(data => {
-    console.log(data) 
-      for (item of data["restaurants"]) {
-        
-        document.querySelector('.restaurant_tcontainer').innerHTML += `
+            document.querySelector(".restaurant_tcontainer").innerHTML += `
         <div class="customcard col-lg-4 col-10">
-                <img src="./img/1b6b82b0-c1bf-47f5-9ad8-10b26eeed083.jpg" alt="photo-restau" class="imgcard">
+                <img src="${item.image}" alt="photo-restau" class="imgcard">
                 <div class="row justify-content-between">
+                      <div class="col-9">
                     <h2 class="col-9 titlecard">
-                        Horlys
+                        ${item.name}
                     </h2>
-                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro1"><i
+
+                <p class="desccard">${item.address}</p>
+                    </div>
+                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i
                             class="fa-solid fa-utensils"></i></button>
                 </div>
-                <p class="desccard">357 rue Beaumarchais, Le Havre</p>
-                <div class="modal" tabindex="-1" id="exemplenuméro1">
+                <div class="modal" tabindex="-1" id="exemplenuméro${i}">
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="d-flex flex-row-reverse m-2">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-
+                            <p>${item.description}</p>
 
                             <div class="d-flex flex-row-reverse mx-1">
                                 <a href="tel:+330000000" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
@@ -41,29 +44,63 @@ fetch('data.json')
                     </div>
                 </div>
             </div>
-        `
-      }
-      for (item of data["cultural"]) { 
-        
-        document.querySelector('.sorties_tcontainer').innerHTML += `
+        `;
+            i++;
+        }
+        for (item of data["cultural"]) {
+            document.querySelector(".sorties_tcontainer").innerHTML += `
         <div class="customcard col-lg-4 col-10">
-                <img src="./img/1b6b82b0-c1bf-47f5-9ad8-10b26eeed083.jpg" alt="photo-restau" class="imgcard">
+                <img src="${item.image}" alt="photo-restau" class="imgcard">
                 <div class="row justify-content-between">
                     <h2 class="col-9 titlecard">
-                        Horlys
+                        "${item.name}"
                     </h2>
-                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro1"><i
+                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i
                             class="fa-solid fa-utensils"></i></button>
                 </div>
-                <p class="desccard">357 rue Beaumarchais, Le Havre</p>
-                <div class="modal" tabindex="-1" id="exemplenuméro1">
+                <p class="desccard">${item.address}</p>
+                <div class="modal" tabindex="-1" id="exemplenuméro${i}">
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="d-flex flex-row-reverse m-2">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
+                            <p>${item.description}</p>
+                            <div class="d-flex flex-row-reverse mx-1">
+                                <a href="tel:+330000000" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
+                                <a href="#" class="ctamodal"><i class="fa-solid fa-globe"></i></a>
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+            i++;
+        }
+        for (item of data["addresses"]) {
+            document.querySelector(".adresses_tcontainer").innerHTML += `
+        <div class="customcard col-lg-4 col-10">
+                <img src="${item.image}" alt="photo-restau" class="imgcard">
+                <div class="row justify-content-between">
+                    <h2 class="col-9 titlecard">
+                        "${item.name}"
+                    </h2>
+                    <button type="button" class="fork" data-bs-toggle="modal"  data-bs-target="#exemplenuméro${i}"><i
+                            class="fa-solid fa-utensils"></i></button>
+                </div>
+                <p class="desccard">${item.address}</p>
+                <div class="modal" tabindex="-1" id="exemplenuméro${i}">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                        
+                            <div class="d-flex flex-row-reverse m-2">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                    
+                            </div>
+                            <p>${item.description}</p>
 
                             <div class="d-flex flex-row-reverse mx-1">
                                 <a href="tel:+330000000" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
@@ -74,40 +111,9 @@ fetch('data.json')
                     </div>
                 </div>
             </div>
-        `
-      }
-      for (item of data["addresses"]) { 
-        document.querySelector('.adresses_tcontainer').innerHTML += `
-        <div class="customcard col-lg-4 col-10">
-                <img src="./img/1b6b82b0-c1bf-47f5-9ad8-10b26eeed083.jpg" alt="photo-restau" class="imgcard">
-                <div class="row justify-content-between">
-                    <h2 class="col-9 titlecard">
-                        Horlys
-                    </h2>
-                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro1"><i
-                            class="fa-solid fa-utensils"></i></button>
-                </div>
-                <p class="desccard">357 rue Beaumarchais, Le Havre</p>
-                <div class="modal" tabindex="-1" id="exemplenuméro1">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="d-flex flex-row-reverse m-2">
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
+        `;
+            i++;
+        }
 
-
-                            <div class="d-flex flex-row-reverse mx-1">
-                                <a href="tel:+330000000" class="ctamodal"><i class="fa-solid fa-phone"></i></a>
-                                <a href="#" class="ctamodal"><i class="fa-solid fa-globe"></i></a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        `
-      }
-    
-  })
-  .catch(error => console.error(error)); // en cas d'erreur, nous affichons un message d'erreur dans la console.
+    })
+    .catch((error) => console.error(error)); // en cas d'erreur, nous affichons un message d'erreur dans la console.
