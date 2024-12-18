@@ -13,7 +13,7 @@
       {
         "name": "A deux pas d'ici",
         "description": "Ils vous proposent une cuisine normande de qualité, ici tout est fait maison.",
-        "description2": "C’est depuis 2003 que les frères Piquenot oeuvrent dans le quartier Saint-François. Ils vous accueillent dans une ambiance raffinée, une décoration traditionnelle de bon goût, avec un service discret et efficace. Ils vous proposent une cuisine normande de qualité, ici tout est fait maison. Vous pourrez apprécier les suggestions du chef qui changent chaque jour, ou choisir des plats à la carte tel que l’andouille de Vire poêlée ou le filet de boeuf au livarot. Profitez de cet instant normand, n’hésitez pas car c’est « à deux pas d’ici » !",
+        "description2": "C’est depuis 2003 que les frères Piquenot oeuvrent dans le quartier Saint-François. Ils vous accueillent dans une ambiance raffinée, une décoration traditionnelle de bon goût, avec un service discret et efficace. Ils vous proposent une cuisine normande de qualité, ici tout est fait maison!",
         "address": "69 Rue Dauphine",
         "image": "./img/restaurants/a-2-pas-dici1.svg",
         "image2": "./img/restaurants/a-2-pas-dici2.svg",
@@ -23,7 +23,7 @@
       {
         "name": "Le Bouche à oreille",
         "description": "Derrière une sobre façade vitrée, on découvre une table de grande valeur.",
-        "description2": "Derrière une sobre façade vitrée, on découvre une table de grande valeur. Le chef mitonne des plats généreux, francs et goûteux, dans un style volontairement traditionnel, mais pas dénué de personnalité et parfois accompagné d'une touche d'originalité, à l'image de ce tartare de crevettes, gyoza aux crevettes, coriandre et citronnelle, bisque et noix de cajou. En salle, son épouse se montre sympathique et efficace, prodiguant de judicieux conseils pour le choix des vins.",
+        "description2": "Derrière une sobre façade vitrée, on découvre une table de grande valeur. Le chef mitonne des plats généreux, francs et goûteux, dans un style volontairement traditionnel, mais pas dénué de personnalité et parfois accompagné d'une touche d'originalité, à l'image de ce tartare de crevettes, gyoza aux crevettes, coriandre et citronnelle, bisque et noix de cajou.",
         "address": "19 Rue Paul Doumer",
         "image": "./img/restaurants/bouche-a-oreille1.svg",
         "image2": "./img/restaurants/bouche-a-oreille-2.svg",
@@ -33,7 +33,7 @@
       {
         "name": "L'anecdote",
         "description": "Un petit coin de Normandie, en Normandie",
-        "description2": "Des mets de qualité réalisés avec des produits frais et de saison. Le Chef Greg Chenel, s’inspire des arrivages saisonniers et de l’expertise des producteurs locaux pour concevoir avec précision chaque assiette. Une carte qui évolue en fonction des saisons et des arrivages de produits frais. Vous pourrez y trouver des produits de la mer provenant du marché aux poissons situé dans le quartier, des légumes d’Octeville sur mer et des environs, de la viande de bœuf de race normande.",
+        "description2": "Des mets de qualité réalisés avec des produits frais et de saison. Le Chef Greg Chenel, s’inspire des arrivages saisonniers et de l’expertise des producteurs locaux pour concevoir avec précision chaque assiette. Une carte qui évolue en fonction des saisons et des arrivages de produits frais.",
         "address": "5 Rue Saint Louis",
         "image": "./img/restaurants/lanecdote1.svg",
         "image2": "./img/restaurants/lanecdote2.svg",
@@ -55,7 +55,7 @@
       {
         "name": "Les Jardins Suspendus",
         "description": "Un espace vert unique avec des plantes venues des quatre coins du monde.",
-        "description2": "Depuis 2008, les Jardins suspendus s’inscrivent dans le paysage havrais comme un lieu emblématique offrant à  leurs visiteurs un univers de découverte végétale et sensorielle. Niché dans un ancien fort militaire du XIXe siècle, ce site exceptionnel, d’une surface de 17 hectares, surplombe la baie de Seine et offre des points de vue admirables sur la mer, le port et la ville et son architecture Perret.",
+        "description2": "Les Jardins suspendus s’inscrivent dans le paysage havrais comme un lieu emblématique offrant à leurs visiteurs un univers de découverte végétale et sensorielle. Niché dans un ancien fort militaire du XIXe siècle, ce site exceptionnel, d’une surface de 17 hectares, surplombe la baie de Seine et offre des points de vue admirables sur la mer, le port et la ville et son architecture Perret.",
         "address": "Rue du Fort",
         "image": "./img/sorties/jardins1.svg",
         "image2": "./img/sorties/jardins2.svg",
@@ -65,7 +65,7 @@
       {
         "name": "Muséum d'histoire naturelle",
         "description": "Le Muséum offre une vaste collection couvrant la biodiversité, la géologie et l'ethnologie.",
-        "description2": "L'objectif du Muséum ? Vous donner l’envie d’être curieux, d'explorer autrement les multiples champs de la culture scientifique pour mieux en faire partager les enjeux. Se questionner, aiguiser son esprit critique, comprendre le monde qui nous entoure... mais aussi se laisser surprendre, rêver, expérimenter le plaisir de la découverte : le Muséum se revendique comme un lieu de lien et de partage intergénérationnel, ouvert à tous et à l'écoute.",
+        "description2": "L'objectif du Muséum ? Vous donner l’envie d’être curieux, d'explorer autrement les multiples champs de la culture scientifique pour mieux en faire partager les enjeux. Se questionner, aiguiser son esprit critique, comprendre le monde qui nous entoure... mais aussi se laisser surprendre, rêver, expérimenter le plaisir de la découverte.",
         "address": "Pl. du Vieux Marché",
         "image": "./img/sorties/museum1.svg",
         "image2": "./img/sorties/museum2.svg",
@@ -75,7 +75,7 @@
       {
         "name": "Visite du port maritime",
         "description": "Le port du Havre (Haropa-Port) c’est : 145 paquebots, 6000 escales annuelles.",
-        "description2": "Au cours de cette visite, nous vous ferons découvrir la diversité des activités portuaires et les différents types de navires qui sont utilisés : pétroliers, huiliers, minéraliers, porte-conteneurs, pilotines, remorqueurs, bateaux d'avitaillement... Ce sera également l'occasion d'observer la diversité des infrastructures portuaires tels que le Mur écran, l'écluse François 1er, mais aussi le Quai de Southampton en plein cœur du Havre où est installée l'arche de containers.",
+        "description2": "Au cours de cette visite, nous vous ferons découvrir la diversité des activités portuaires et les différents types de navires qui sont utilisés : pétroliers, huiliers, minéraliers, porte-conteneurs, pilotines, remorqueurs, bateaux d'avitaillement...",
         "address": "125 Boulevard Clémenceau",
         "image": "./img/sorties/port1.svg",
         "image2": "./img/sorties/port2.svg",
@@ -97,7 +97,7 @@
       {
         "name": "Paradox",
         "description": "Une envie de sensations fortes ?",
-        "description2": "Paradox est né de la volonté d’offrir aux habitants du Havre et son agglomération un lieu permettant d’expérimenter de nouveaux loisirs en famille, entre amis ou entre collègues. Paradox est aussi né de la conviction que la réalité virtuelle prendra une place importante dans nos vies futures. Grâce à elle, d’innombrables aventures nous sont accessibles avec des sensations qui nous transportent dans d’autres mondes. Et c’est notre souhait de vous faire partager ces expériences ! Âmes sensibles s’abstenir, ça décoiffe…",
+        "description2": "Paradox est né de la volonté d’offrir aux habitants du Havre et son agglomération un lieu permettant d’expérimenter de nouveaux loisirs en famille, entre amis ou entre collègues. Paradox est aussi né de la conviction que la réalité virtuelle prendra une place importante dans nos vies futures.",
         "address": "22 rue des Briquetiers",
         "image": "./img/adresses/paradox1.svg",
         "image2": "./img/adresses/paradox2.svg",
@@ -107,7 +107,7 @@
       {
         "name": "Chez Lili",
         "description": "Un bar au milieu des poissons",
-        "description2": "Petit bar baigné de soleil, Chez Lili c’est « the place to be » au Havre ! Entre la Maison de l’Armateur, le port de pêche, le marché aux poissons et la Halle aux Poissons, Chez Lili s’étend sur une grande terrasse au milieu d’un paysage maritime et portuaire. On trouve dans ce petit bar tout ce qu’il faut pour passer un bon moment : Paillette et Deux Amants à la pression, vins de producteurs, café torréfié au Havre, crustacés du coin… Le midi le chef propose un menu soigné, sans chichis. Quand la nuit tombe la cuisine est plus élaborée. Le week-end, les assiettes sont à partager. Et toujours… les huîtres de Saint-Vaast!",
+        "description2": "Petit bar baigné de soleil, Chez Lili c’est « the place to be » au Havre ! Entre la Maison de l’Armateur, le port de pêche, le marché aux poissons et la Halle aux Poissons, Chez Lili s’étend sur une grande terrasse au milieu d’un paysage maritime et portuaire. On trouve dans ce petit bar tout ce qu’il faut pour passer un bon moment.",
         "address": "3 rue du Général Sarrail",
         "image": "./img/adresses/chezlili1.svg",
         "image2": "./img/adresses/chezlili2.svg",
