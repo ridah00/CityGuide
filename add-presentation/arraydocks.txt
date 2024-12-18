@@ -1,0 +1,23 @@
+Centre commercial Docks Vauban
+
+70 quai Frissard
++33235113360
+https://docksvauban.com/
+
+Les Docks Vauban du Havre offrent shopping, restaurants et détente en famille avec vue sur le port.
+
+Les Docks Vauban du Havre sont un endroit idéal pour une sortie en famille ! Ce quartier moderne et branché, aménagé dans d'anciens entrepôts, offre une belle promenade le long des quais. Vous y trouverez des boutiques, des restaurants sympas et même des espaces pour se détendre. C’est un lieu parfait pour flâner, faire du shopping ou simplement profiter d'un moment tranquille avec une jolie vue sur le port. Une sortie idéale pour toute la famille, entre histoire et modernité !
+
+
+
+,
+      {
+        "name": "Centre commercial Docks Vauban",
+        "description": "Les Docks Vauban du Havre offrent shopping, restaurants et détente en famille avec vue sur le port.",
+        "description2": "Les Docks Vauban du Havre sont un endroit idéal pour une sortie en famille ! Ce quartier moderne et branché, aménagé dans d'anciens entrepôts, offre une belle promenade le long des quais. Vous y trouverez des boutiques, des restaurants sympas et même des espaces pour se détendre. C’est un lieu parfait pour flâner, faire du shopping ou simplement profiter d'un moment tranquille avec une jolie vue sur le port. Une sortie idéale pour toute la famille, entre histoire et modernité !",
+        "address": "70 quai Frissard",
+        "image": "./add-presentation/docks1.svg",
+        "image2": "./add-presentation/docks2.svg",
+        "tel": "+33235113360",
+        "website": "https://docksvauban.com/"
+      }
