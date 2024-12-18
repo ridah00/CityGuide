@@ -6,7 +6,7 @@
         "description2": "La Tablée c’est avant tout une table gastronomique, conviviale et généreuse qui partage sa passion et son amour du produit avec tous les curieux et amateurs qui le souhaitent. Restaurant gastronomique moderne, ils ont à cœur de valoriser, dans la justesse et le goût, les produits des artisans et producteurs de notre région.",
         "address": "69 rue Guillemard",
         "image": "./img/restaurants/la-tablee1.svg",
-        "image2": "./img/restaurants/la-tablee2.svg",
+        "image2": "./img/restaurants/la-tablee2.avif",
         "tel": "+33276258666",
         "website": "https://la-tablee.fr/"
       },
@@ -16,7 +16,7 @@
         "description2": "C’est depuis 2003 que les frères Piquenot oeuvrent dans le quartier Saint-François. Ils vous accueillent dans une ambiance raffinée, une décoration traditionnelle de bon goût, avec un service discret et efficace. Ils vous proposent une cuisine normande de qualité, ici tout est fait maison!",
         "address": "69 Rue Dauphine",
         "image": "./img/restaurants/a-2-pas-dici1.svg",
-        "image2": "./img/restaurants/a-2-pas-dici2.svg",
+        "image2": "./img/restaurants/a-2-pas-dici2.avif",
         "tel": "+33235434481",
         "website": "https://www.adeuxpasdici.fr/"
       },
@@ -26,7 +26,7 @@
         "description2": "Derrière une sobre façade vitrée, on découvre une table de grande valeur. Le chef mitonne des plats généreux, francs et goûteux, dans un style volontairement traditionnel, mais pas dénué de personnalité et parfois accompagné d'une touche d'originalité, à l'image de ce tartare de crevettes, gyoza aux crevettes, coriandre et citronnelle, bisque et noix de cajou.",
         "address": "19 Rue Paul Doumer",
         "image": "./img/restaurants/bouche-a-oreille1.svg",
-        "image2": "./img/restaurants/bouche-a-oreille-2.svg",
+        "image2": "./img/restaurants/bouche-a-oreille-2.avif",
         "tel": "+33235454460",
         "website": "https://www.facebook.com/profile.php?id=100086088245014"
       },
@@ -36,7 +36,7 @@
         "description2": "Des mets de qualité réalisés avec des produits frais et de saison. Le Chef Greg Chenel, s’inspire des arrivages saisonniers et de l’expertise des producteurs locaux pour concevoir avec précision chaque assiette. Une carte qui évolue en fonction des saisons et des arrivages de produits frais.",
         "address": "5 Rue Saint Louis",
         "image": "./img/restaurants/lanecdote1.svg",
-        "image2": "./img/restaurants/lanecdote2.svg",
+        "image2": "./img/restaurants/lanecdote2.avif",
         "tel": "+33983875714",
         "website": "https://www.restaurantlanecdote.fr/"
       }
@@ -48,7 +48,7 @@
         "description2": "Situé au bord de la mer, le MuMa offre une architecture entièrement dédiée à l’espace et à la lumière. La situation exceptionnelle du bâtiment est soulignée par Le Signal, sculpture d’Henri-Georges Adam, qui encadre de béton un morceau du paysage maritime.",
         "address": "2 Boulevard Clemenceau",
         "image": "./img/sorties/muma1.svg",
-        "image2": "./img/sorties/muma2.svg",
+        "image2": "./img/sorties/muma2.avif",
         "tel": "+33235196262",
         "website": "https://www.muma-lehavre.fr/"
       },
@@ -58,7 +58,7 @@
         "description2": "Niché dans un ancien fort militaire du XIXe, d’une surface de 17 hectares, surplombe la baie de Seine et offre des points de vue admirables sur la mer, le port et la ville et son architecture Perret.",
         "address": "Rue du Fort",
         "image": "./img/sorties/jardins1.svg",
-        "image2": "./img/sorties/jardins2.svg",
+        "image2": "./img/sorties/jardins2.avif",
         "tel": "+33232740433",
         "website": "https://lehavre.fr/annuaire-equipements/les-jardins-suspendus"
       },
@@ -68,7 +68,7 @@
         "description2": "L'objectif du Muséum ? Vous donner l’envie d’être curieux, d'explorer autrement les multiples champs de la culture scientifique pour mieux en faire partager les enjeux. Se questionner, aiguiser son esprit critique, comprendre le monde qui nous entoure...",
         "address": "Pl. du Vieux Marché",
         "image": "./img/sorties/museum1.svg",
-        "image2": "./img/sorties/museum2.svg",
+        "image2": "./img/sorties/museum2.avif",
         "tel": "+33235413728",
         "website": "https://museum-lehavre.fr/"
       },
@@ -78,7 +78,7 @@
         "description2": "Au cours de cette visite, nous vous ferons découvrir la diversité des activités portuaires et les différents types de navires qui sont utilisés : pétroliers, huiliers, minéraliers, porte-conteneurs, pilotines, remorqueurs, bateaux d'avitaillement...",
         "address": "125 Boulevard Clémenceau",
         "image": "./img/sorties/port1.svg",
-        "image2": "./img/sorties/port2.svg",
+        "image2": "./img/sorties/port2.avif",
         "tel": "+33279491570",
         "website": "https://vedettesbaiedeseine.fr/billetterie/"
       }
@@ -90,7 +90,7 @@
         "description2": "Le CEM est un Pôle de musiques actuelles comprenant une école de musique, un centre de formation professionnelle agréé, un pôle de répétition, une salle de concert, un bar, différents lieux d'expositions d'art.",
         "address": "55 Rue du 329ème RI, Fort de Tourneville ",
         "image": "./img/adresses/cem1.svg",
-        "image2": "./img/adresses/cem2.svg",
+        "image2": "./img/adresses/cem2.avif",
         "tel": "+33235484880",
         "website": "https://www.le-cem.com/"
       },
@@ -100,7 +100,7 @@
         "description2": "Paradox est né de la volonté d’offrir aux habitants du Havre et son agglomération un lieu permettant d’expérimenter de nouveaux loisirs en famille, entre amis ou entre collègues.",
         "address": "22 rue des Briquetiers",
         "image": "./img/adresses/paradox1.svg",
-        "image2": "./img/adresses/paradox2.svg",
+        "image2": "./img/adresses/paradox2.avif",
         "tel": "+33232728324",
         "website": "https://www.restaurantparadox.fr"
       },
@@ -110,7 +110,7 @@
         "description2": "Petit bar baigné de soleil, Chez Lili c’est « the place to be » au Havre ! Entre la Maison de l’Armateur, le port de pêche, le marché aux poissons et la Halle aux Poissons, Chez Lili s’étend sur une grande terrasse au milieu d’un paysage maritime et portuaire.",
         "address": "3 rue du Général Sarrail",
         "image": "./img/adresses/chezlili1.svg",
-        "image2": "./img/adresses/chezlili2.svg",
+        "image2": "./img/adresses/chezlili2.avif",
         "tel": "+33235301109",
         "website": "https://chezlili.bar"
       },
@@ -120,7 +120,7 @@
         "description2": "Le Hangar Zéro se construit collectivement par les futurs résidents, usagers du lieu et habitants de la ville conviés sans exclusion à la décision. Abordant l’écologie comme une problématique systémique globale.",
         "address": "37 Quai des la Saône",
         "image": "./img/adresses/hangar0.svg",
-        "image2": "./img/adresses/hangar02.svg",
+        "image2": "./img/adresses/hangar02.avif",
         "tel": "+33749655128",
         "website": "https://lehangarzero.fr"
       }
