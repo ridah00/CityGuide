@@ -111,7 +111,7 @@
 .imgcard-in {
     align-self: center;
     max-width: 95%;
-    max-height: 35rem;
+    height: 25rem;
     border-radius: 1rem;
 }
 
