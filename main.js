@@ -42,7 +42,7 @@ function parcourir_tout() {
                         <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
-                            <p class="desccard-in">${item.description2}</p>
+                            <p class="desccard-in mb-4">${item.description2}</p>
                         </div>
 
 
@@ -87,7 +87,7 @@ function parcourir_tout() {
                         <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
-                            <p class="desccard-in">${item.description2}</p>
+                            <p class="desccard-in mb-4">${item.description2}</p>
                         </div>
 
 
@@ -133,7 +133,7 @@ function parcourir_tout() {
                         <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
-                            <p class="desccard-in">${item.description2}</p>
+                            <p class="desccard-in mb-4">${item.description2}</p>
                         </div>
 
 
@@ -211,7 +211,7 @@ function afficher_restau() {
                         <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
-                            <p class="desccard-in">${item.description2}</p>
+                            <p class="desccard-in mb-4">${item.description2}</p>
                         </div>
 
 
@@ -271,7 +271,7 @@ function afficher_sortie() {
                         <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
-                            <p class="desccard-in">${item.description2}</p>
+                            <p class="desccard-in mb-4">${item.description2}</p>
                         </div>
 
 
@@ -331,7 +331,7 @@ function afficher_adresses() {
                         <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
                             <p class="desccard-in fst-italic text-secondary my-3">${item.address}</p>
-                            <p class="desccard-in">${item.description2}</p>
+                            <p class="desccard-in mb-4">${item.description2}</p>
                         </div>
 
 
