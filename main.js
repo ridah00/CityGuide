@@ -16,7 +16,7 @@ function parcourir_tout() {
 
 
         <div class="customcard col-lg-4 col-10" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}">
-        <img src="${item.image}" alt="photo-restau" class="imgcard">
+        <img src="${item.image}" alt="image_${item.name}" class="imgcard">
         <div class="row justify-content-between">
             <div class="col-9">
                 <h2 class="col-9 titlecard">
@@ -26,7 +26,7 @@ function parcourir_tout() {
                 <p class="desccard fst-italic text-secondary">${item.address}</p>
                 <p class="desccard">${item.description}</p>
             </div>
-            <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i
+            <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}" aria-label="restaurants"><i
                     class="fa-solid fa-utensils"></i></button>
         </div>
         <div class="modal" tabindex="-1" id="exemplenuméro${i}">
@@ -36,7 +36,7 @@ function parcourir_tout() {
                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                             aria-label="Close"></button>
                     </div>
-                    <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
+                    <img src="${item.image2}" alt="image_${item.name}" class="imgcard-in">
 
                     <div class="d-flex row m-3">
                         <div class="d-flex flex-column col-lg-8 col-12">
@@ -63,7 +63,7 @@ function parcourir_tout() {
       for (item of data["cultural"]) {
         document.querySelector(".sorties_tcontainer").innerHTML += `
      <div class="customcard col-lg-4 col-10" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}">
-                <img src="${item.image}" alt="photo-restau" class="imgcard">
+                <img src="${item.image}" alt="image_${item.name}" class="imgcard">
                 <div class="row justify-content-between">
                       <div class="col-9">
                     <h2 class="col-9 titlecard">
@@ -73,7 +73,7 @@ function parcourir_tout() {
                 <p class="desccard fst-italic text-secondary">${item.address}</p>
                 <p class="desccard">${item.description}</p>
                     </div>
-                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i class="fa-solid fa-house-flag"></i></button>
+                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}" aria-label="Sortie culturelle"><i class="fa-solid fa-house-flag"></i></button>
                 </div>
                 <div class="modal" tabindex="-1" id="exemplenuméro${i}">
                     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
@@ -82,7 +82,7 @@ function parcourir_tout() {
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
+                            <img src="${item.image2}" alt="image_${item.name}" class="imgcard-in">
                               <div class="d-flex row m-3">
                         <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
@@ -109,7 +109,7 @@ function parcourir_tout() {
       for (item of data["addresses"]) {
         document.querySelector(".adresses_tcontainer").innerHTML += `
        <div class="customcard col-lg-4 col-10" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}">
-                <img src="${item.image}" alt="photo-restau" class="imgcard">
+                <img src="${item.image}" alt="image_${item.name}" class="imgcard">
                 <div class="row justify-content-between">
                       <div class="col-9">
                     <h2 class="col-9 titlecard">
@@ -119,7 +119,7 @@ function parcourir_tout() {
                 <p class="desccard fst-italic text-secondary">${item.address}</p>
                 <p class="desccard">${item.description}</p>
                     </div>
-                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i class="fa-solid fa-location-dot"></i></button>
+                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}" aria-label="Bonnes adresses"><i class="fa-solid fa-location-dot"></i></button>
                 </div>
                 <div class="modal" tabindex="-1" id="exemplenuméro${i}">
                     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
@@ -128,7 +128,7 @@ function parcourir_tout() {
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
+                            <img src="${item.image2}" alt="image_${item.name}" class="imgcard-in">
                          <div class="d-flex row m-3">
                         <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
@@ -186,7 +186,7 @@ function afficher_restau() {
       for (item of data["restaurants"]) {
         document.querySelector(".restaurant_tcontainer").innerHTML += `
        <div class="customcard col-lg-4 col-10" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}">
-                <img src="${item.image}" alt="photo-restau" class="imgcard">
+                <img src="${item.image}" alt="image_${item.name}" class="imgcard">
                 <div class="row justify-content-between">
                       <div class="col-9">
                     <h2 class="col-9 titlecard">
@@ -196,7 +196,7 @@ function afficher_restau() {
                 <p class="desccard fst-italic text-secondary">${item.address}</p>
                 <p class="desccard">${item.description}</p>
                     </div>
-                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i
+                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}" aria-label="restaurant"><i
                             class="fa-solid fa-utensils"></i></button>
                 </div>
                 <div class="modal" tabindex="-1" id="exemplenuméro${i}">
@@ -206,7 +206,7 @@ function afficher_restau() {
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
+                            <img src="${item.image2}" alt="image_${item.name}" class="imgcard-in">
                              <div class="d-flex row m-3">
                         <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
@@ -247,7 +247,7 @@ function afficher_sortie() {
       for (item of data["cultural"]) {
         document.querySelector(".sorties_tcontainer").innerHTML += `
        <div class="customcard col-lg-4 col-10" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}">
-                <img src="${item.image}" alt="photo-restau" class="imgcard">
+                <img src="${item.image}" alt="image_${item.name}" class="imgcard">
                 <div class="row justify-content-between">
                       <div class="col-9">
                     <h2 class="col-9 titlecard">
@@ -257,7 +257,7 @@ function afficher_sortie() {
                 <p class="desccard fst-italic text-secondary">${item.address}</p>
                 <p class="desccard">${item.description}</p>
                     </div>
-                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i class="fa-solid fa-house-flag"></i></button>
+                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}" aria-label="sortie-culturelle"><i class="fa-solid fa-house-flag"></i></button>
                 </div>
                 <div class="modal" tabindex="-1" id="exemplenuméro${i}">
                     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
@@ -266,7 +266,7 @@ function afficher_sortie() {
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
+                            <img src="${item.image2}" alt="image_${item.name}" class="imgcard-in">
                             <div class="d-flex row m-3">
                         <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>
@@ -307,7 +307,7 @@ function afficher_adresses() {
       for (item of data["addresses"]) {
         document.querySelector(".adresses_tcontainer").innerHTML += `
        <div class="customcard col-lg-4 col-10" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}">
-                <img src="${item.image}" alt="photo-restau" class="imgcard">
+                <img src="${item.image}" alt="image_${item.name}" class="imgcard">
                 <div class="row justify-content-between">
                       <div class="col-9">
                     <h2 class="col-9 titlecard">
@@ -317,7 +317,7 @@ function afficher_adresses() {
                 <p class="desccard fst-italic text-secondary">${item.address}</p>
                 <p class="desccard">${item.description}</p>
                     </div>
-                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}"><i class="fa-solid fa-location-dot"></i></button>
+                    <button type="button" class="fork" data-bs-toggle="modal" data-bs-target="#exemplenuméro${i}" aria-label="bonnes-adresses"><i class="fa-solid fa-location-dot"></i></button>
                 </div>
                 <div class="modal" tabindex="-1" id="exemplenuméro${i}">
                     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
@@ -326,7 +326,7 @@ function afficher_adresses() {
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                                 <img src="${item.image2}" alt="photo-restau" class="imgcard-in">
+                                 <img src="${item.image2}" alt="image_${item.name}" class="imgcard-in">
                               <div class="d-flex row m-3">
                         <div class="d-flex flex-column col-lg-8 col-12">
                             <p class="titlecard">${item.name}</p>

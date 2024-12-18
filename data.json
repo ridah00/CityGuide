@@ -45,7 +45,7 @@
       {
         "name": "Musée Malraux (MuMa)",
         "description": "Découvrez l'une des plus grandes collections impressionnistes de France.",
-        "description2": "Situé au bord de la mer, le Musée d’art moderne André Malraux — MuMa Le Havre offre une architecture entièrement dédiée à l’espace et à la lumière. La situation exceptionnelle du bâtiment est soulignée par Le Signal, sculpture d’Henri-Georges Adam, qui encadre de béton un morceau du paysage maritime qui a inspiré nombre d’artistes présents dans les collections du musée.",
+        "description2": "Situé au bord de la mer, le MuMa offre une architecture entièrement dédiée à l’espace et à la lumière. La situation exceptionnelle du bâtiment est soulignée par Le Signal, sculpture d’Henri-Georges Adam, qui encadre de béton un morceau du paysage maritime.",
         "address": "2 Boulevard Clemenceau",
         "image": "./img/sorties/muma1.svg",
         "image2": "./img/sorties/muma2.svg",
@@ -55,7 +55,7 @@
       {
         "name": "Les Jardins Suspendus",
         "description": "Un espace vert unique avec des plantes venues des quatre coins du monde.",
-        "description2": "Les Jardins suspendus s’inscrivent dans le paysage havrais comme un lieu emblématique offrant à leurs visiteurs un univers de découverte végétale et sensorielle. Niché dans un ancien fort militaire du XIXe siècle, ce site exceptionnel, d’une surface de 17 hectares, surplombe la baie de Seine et offre des points de vue admirables sur la mer, le port et la ville et son architecture Perret.",
+        "description2": "Niché dans un ancien fort militaire du XIXe, d’une surface de 17 hectares, surplombe la baie de Seine et offre des points de vue admirables sur la mer, le port et la ville et son architecture Perret.",
         "address": "Rue du Fort",
         "image": "./img/sorties/jardins1.svg",
         "image2": "./img/sorties/jardins2.svg",
@@ -65,7 +65,7 @@
       {
         "name": "Muséum d'histoire naturelle",
         "description": "Le Muséum offre une vaste collection couvrant la biodiversité, la géologie et l'ethnologie.",
-        "description2": "L'objectif du Muséum ? Vous donner l’envie d’être curieux, d'explorer autrement les multiples champs de la culture scientifique pour mieux en faire partager les enjeux. Se questionner, aiguiser son esprit critique, comprendre le monde qui nous entoure... mais aussi se laisser surprendre, rêver, expérimenter le plaisir de la découverte.",
+        "description2": "L'objectif du Muséum ? Vous donner l’envie d’être curieux, d'explorer autrement les multiples champs de la culture scientifique pour mieux en faire partager les enjeux. Se questionner, aiguiser son esprit critique, comprendre le monde qui nous entoure...",
         "address": "Pl. du Vieux Marché",
         "image": "./img/sorties/museum1.svg",
         "image2": "./img/sorties/museum2.svg",
@@ -87,7 +87,7 @@
       {
         "name": "Le C.E.M",
         "description": "De la musique et un bar",
-        "description2": "Le CEM est un Pôle de musiques actuelles comprenant une école de musique (guitare, basse, batterie, piano, chant, chorale, éveil musical), un centre de formation professionnelle agréé, un pôle de répétition, une salle de concert, un bar, différents lieux d'expositions d'art.",
+        "description2": "Le CEM est un Pôle de musiques actuelles comprenant une école de musique, un centre de formation professionnelle agréé, un pôle de répétition, une salle de concert, un bar, différents lieux d'expositions d'art.",
         "address": "55 Rue du 329ème RI, Fort de Tourneville ",
         "image": "./img/adresses/cem1.svg",
         "image2": "./img/adresses/cem2.svg",
@@ -97,7 +97,7 @@
       {
         "name": "Paradox",
         "description": "Une envie de sensations fortes ?",
-        "description2": "Paradox est né de la volonté d’offrir aux habitants du Havre et son agglomération un lieu permettant d’expérimenter de nouveaux loisirs en famille, entre amis ou entre collègues. Paradox est aussi né de la conviction que la réalité virtuelle prendra une place importante dans nos vies futures.",
+        "description2": "Paradox est né de la volonté d’offrir aux habitants du Havre et son agglomération un lieu permettant d’expérimenter de nouveaux loisirs en famille, entre amis ou entre collègues.",
         "address": "22 rue des Briquetiers",
         "image": "./img/adresses/paradox1.svg",
         "image2": "./img/adresses/paradox2.svg",
@@ -107,7 +107,7 @@
       {
         "name": "Chez Lili",
         "description": "Un bar au milieu des poissons",
-        "description2": "Petit bar baigné de soleil, Chez Lili c’est « the place to be » au Havre ! Entre la Maison de l’Armateur, le port de pêche, le marché aux poissons et la Halle aux Poissons, Chez Lili s’étend sur une grande terrasse au milieu d’un paysage maritime et portuaire. On trouve dans ce petit bar tout ce qu’il faut pour passer un bon moment.",
+        "description2": "Petit bar baigné de soleil, Chez Lili c’est « the place to be » au Havre ! Entre la Maison de l’Armateur, le port de pêche, le marché aux poissons et la Halle aux Poissons, Chez Lili s’étend sur une grande terrasse au milieu d’un paysage maritime et portuaire.",
         "address": "3 rue du Général Sarrail",
         "image": "./img/adresses/chezlili1.svg",
         "image2": "./img/adresses/chezlili2.svg",
@@ -117,7 +117,7 @@
       {
         "name": "Hangar zéro",
         "description": "Un lieu ouvert à tous, où s’élabore les pratiques d’avenir, pour une écologie citoyenne et juste",
-        "description2": "Le Hangar Zéro se construit collectivement par les futurs résidents, usagers du lieu et habitants de la ville conviés sans exclusion à la décision. Abordant l’écologie comme une problématique systémique globale, il s’envisage comme un écosystème local interagissant activement avec son environnement physique, social et économique.",
+        "description2": "Le Hangar Zéro se construit collectivement par les futurs résidents, usagers du lieu et habitants de la ville conviés sans exclusion à la décision. Abordant l’écologie comme une problématique systémique globale.",
         "address": "37 Quai des la Saône",
         "image": "./img/adresses/hangar0.svg",
         "image2": "./img/adresses/hangar02.svg",
